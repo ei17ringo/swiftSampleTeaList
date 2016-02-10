@@ -14,6 +14,12 @@
 		1B55488E1C6B210000A26B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B55488C1C6B210000A26B15 /* LaunchScreen.storyboard */; };
 		1B5548991C6B210000A26B15 /* sampleTeaListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5548981C6B210000A26B15 /* sampleTeaListTests.swift */; };
 		1B5548A41C6B210000A26B15 /* sampleTeaListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5548A31C6B210000A26B15 /* sampleTeaListUITests.swift */; };
+		1B5548B21C6B212000A26B15 /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1B5548B11C6B212000A26B15 /* json.txt */; };
+		1B5548B41C6B697600A26B15 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5548B31C6B697600A26B15 /* secondViewController.swift */; };
+		1B5548B91C6B6F9600A26B15 /* assam_black_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B5548B51C6B6F9600A26B15 /* assam_black_tea.jpg */; };
+		1B5548BA1C6B6F9600A26B15 /* darjeeling_cup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B5548B61C6B6F9600A26B15 /* darjeeling_cup.jpg */; };
+		1B5548BB1C6B6F9600A26B15 /* earl_grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B5548B71C6B6F9600A26B15 /* earl_grey.jpg */; };
+		1B5548BC1C6B6F9600A26B15 /* orenge_peco.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B5548B81C6B6F9600A26B15 /* orenge_peco.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		1B55489F1C6B210000A26B15 /* sampleTeaListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTeaListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5548A31C6B210000A26B15 /* sampleTeaListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTeaListUITests.swift; sourceTree = "<group>"; };
 		1B5548A51C6B210000A26B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B5548B11C6B212000A26B15 /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		1B5548B31C6B697600A26B15 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		1B5548B51C6B6F9600A26B15 /* assam_black_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = assam_black_tea.jpg; sourceTree = "<group>"; };
+		1B5548B61C6B6F9600A26B15 /* darjeeling_cup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darjeeling_cup.jpg; sourceTree = "<group>"; };
+		1B5548B71C6B6F9600A26B15 /* earl_grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earl_grey.jpg; sourceTree = "<group>"; };
+		1B5548B81C6B6F9600A26B15 /* orenge_peco.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orenge_peco.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		1B5548821C6B20FF00A26B15 /* sampleTeaList */ = {
 			isa = PBXGroup;
 			children = (
+				1B5548B51C6B6F9600A26B15 /* assam_black_tea.jpg */,
+				1B5548B61C6B6F9600A26B15 /* darjeeling_cup.jpg */,
+				1B5548B71C6B6F9600A26B15 /* earl_grey.jpg */,
+				1B5548B81C6B6F9600A26B15 /* orenge_peco.jpeg */,
 				1B5548831C6B20FF00A26B15 /* AppDelegate.swift */,
 				1B5548851C6B20FF00A26B15 /* ViewController.swift */,
 				1B5548871C6B20FF00A26B15 /* Main.storyboard */,
 				1B55488A1C6B210000A26B15 /* Assets.xcassets */,
 				1B55488C1C6B210000A26B15 /* LaunchScreen.storyboard */,
 				1B55488F1C6B210000A26B15 /* Info.plist */,
+				1B5548B11C6B212000A26B15 /* json.txt */,
+				1B5548B31C6B697600A26B15 /* secondViewController.swift */,
 			);
 			path = sampleTeaList;
 			sourceTree = "<group>";
@@ -229,9 +247,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5548B21C6B212000A26B15 /* json.txt in Resources */,
+				1B5548B91C6B6F9600A26B15 /* assam_black_tea.jpg in Resources */,
+				1B5548BC1C6B6F9600A26B15 /* orenge_peco.jpeg in Resources */,
 				1B55488E1C6B210000A26B15 /* LaunchScreen.storyboard in Resources */,
+				1B5548BB1C6B6F9600A26B15 /* earl_grey.jpg in Resources */,
 				1B55488B1C6B210000A26B15 /* Assets.xcassets in Resources */,
 				1B5548891C6B20FF00A26B15 /* Main.storyboard in Resources */,
+				1B5548BA1C6B6F9600A26B15 /* darjeeling_cup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B5548861C6B20FF00A26B15 /* ViewController.swift in Sources */,
+				1B5548B41C6B697600A26B15 /* secondViewController.swift in Sources */,
 				1B5548841C6B20FF00A26B15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
